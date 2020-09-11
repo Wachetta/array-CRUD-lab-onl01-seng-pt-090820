@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
- ["cat", "dog", "hamster", "parrot"] # create an array with four elements
+pets = ["cat", "dog", "hamster", "parrot"] # create an array with four elements
 end
 
 def add_element_to_end_of_array(array, element)
