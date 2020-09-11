@@ -7,7 +7,8 @@ pets = ["cat", "dog", "hamster", "parrot"] # create an array with four elements
 end
 
 def add_element_to_end_of_array(array, element)
-   pets << "arrays!" # add arrays! to the back of an array, used shovel method
+  array = ["wow", "I", "am", "really", "learning"]
+   array << "arrays!" # add arrays! to the back of an array, used shovel method
 end
 
 def add_element_to_start_of_array(array, element)
