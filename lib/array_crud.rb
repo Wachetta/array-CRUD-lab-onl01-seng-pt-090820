@@ -1,13 +1,14 @@
 def create_an_empty_array
-  []
+  [] #create an array that is empty
 end
 
 def create_an_array
- ["cat", "dog", "hamster", "parrot"]
+ ["cat", "dog", "hamster", "parrot"] # create an array with four elements
 end
 
 def add_element_to_end_of_array(array, element)
-
+   pets = ["cat", "dog", "hamster", "parrot"]
+   pets << "emu"
 end
 
 def add_element_to_start_of_array(array, element)
